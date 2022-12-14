@@ -7,11 +7,10 @@
 
 # I have used MySQL as the database.
 
-# Coming to the problem statement, the main part of the assignment is to check weather the user is already registered or not. I have used phone number as the key
-to check weather the user with same phone number exists or not, because the phone number is always unique for all the registered people.
+# Coming to the problem statement, the main part of the assignment is to check weather the user is already registered or not. I have used phone number as the keyto check weather the user with same phone number exists or not, because the phone number is always unique for all the registered people.
 
-# All the data of users is stored in "users" table
+# All the data of users is stored in "users" table.
 
-# For payment part, I have stored the details in "payments" table.
+# For payment part, I have stored the details in "payments" table,
 
 #As told in the problem statement I have not implemented completePayments() function.
