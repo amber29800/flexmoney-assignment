@@ -11,6 +11,56 @@
 
 # All the data of users is stored in "users" table.
 
-# For payment part, I have stored the details in "payments" table,
+# For payment part, I have stored the details in "payments" table.
 
-#As told in the problem statement I have not implemented completePayments() function.
+# As told in the problem statement I have not implemented completePayments() function.
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# ER DIAGRAM 
+          +----------------+
+          |   users        |
+          +----------------+
+          |   id           |
+          |   name         |
+          |   password     |
+          |   age          |
+          |   mobile number|
+          |   batch        |
+          +----------------+
+                 |
+                 |
+                 |
+                 |
+          +----------------+
+          |   payments     |
+          +----------------+
+          |   payment_id   |
+          |   user_id (fk) |
+          |   amount       |
+          |   date |
+          +----------------+
+          
+# SCHEMA DIAGRAM
+
+          +---------------+
+          |    payments   |
+          +---------------+
+          | payment_id            |
+          | user_id (FK)  |
+          | amount        |
+          | date          |
+          +---------------+
+                  |
+                  |
+                  v
+          +----------------+
+          |    users       |
+          +----------------+
+          |   id           |
+          |   name         |
+          |   password     |
+          |   age          |
+          |   mobile number|
+          |   batch        |
+          +----------------+
